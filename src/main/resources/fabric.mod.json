@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "aichat",
+  "version": "${version}",
+  "name": "AI Chat Assistant",
+  "description": "在 Minecraft 里和 AI 聊天，AI 可以调用工具帮你执行游戏指令",
+  "authors": [
+    "you"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "main": [
+      "com.aichat.AIChatMod"
+    ],
+    "client": [
+      "com.aichat.client.AIChatModClient"
+    ],
+    "modmenu": [
+      "com.aichat.client.ModMenuIntegration"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.19.3",
+    "minecraft": "~26.2",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}

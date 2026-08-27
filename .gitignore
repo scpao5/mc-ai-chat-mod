@@ -1,0 +1,17 @@
+# Gradle / Loom
+.gradle/
+build/
+run/
+out/
+
+# IDE
+.idea/
+*.iml
+.vscode/
+*.class
+
+# 系统
+.DS_Store
+
+# 游戏运行数据
+config/
